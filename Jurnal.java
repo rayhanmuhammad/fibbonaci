@@ -22,9 +22,9 @@ public class Jurnal {
         int n1=1,n2=1,n3,i;    
         System.out.println("Masukkan Inputan : ");
         int count=sc.nextInt();
-        System.out.print(n1+" "+n2);//printing 0 and 1    
+        System.out.print(n1+" "+n2);
     
-       for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
+       for(i=2;i<count;++i)
         {    
             n3=n1+n2;    
             System.out.print(" "+n3);    
